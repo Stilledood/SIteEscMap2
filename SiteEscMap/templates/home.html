@@ -10,6 +10,10 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'css/network.css' %}">
+  <!-- Font Awesome 5.15.1 CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
 </head>
 <body>
 {% block content %}
@@ -70,7 +74,7 @@
                   <p>Oferim strategii personalizate de marketing digital adaptate unicei identitati a afacerii dumneavoastra, pentru rezultate eficiente si durabile</p>
                 </a>
                 <a href="#0">
-                  <h3>Analize si rapoarte detaliate</h3>
+                  <h3>Analize si rapoarte</h3>
                   <p>Oferim analize profunde si rapoarte detaliate pentru a va ajuta sa intelegeti si performanta campaniilor de marketing digital. Cu noi, veti avea mereu acces asupra datelor</p>
                 </a>
               </div>
@@ -91,7 +95,7 @@
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a href="#0">
+                    <a href="services/social_media_marketing">
                       <div class="slider--item-image">
                         <img src="{% static 'img/marketing.png' %}" alt="Metiew and Smith">
                       </div>
@@ -161,25 +165,15 @@
               <div class="about--banner">
                 <h2>Noi<br>credem in<br>rezultate<br>imposibile</h2>
 
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-
-                    </svg>
-                  </span>
                 </a>
                 <img src="{% static 'img/about-visual.png' %}" alt="About Us">
               </div>
-                <div class="about--options">
-                  <p class="slider--item-description">Cu o pasiune pentru inovatie, o viziune de viitor si o echipa de
+                  <p >Cu o pasiune pentru inovatie, o viziune de viitor si o echipa de
                     specialisti<br>dedicati suntem agentia de marketing digital care va ajuta
                     sa va atingeti obiectivele si sa va construiti prezenta online
                     intr-un mod semnificativ<br>Ce ne diferentiaza este abordarea noastra personalizata. Nu credem in solutii universale. In schimb, analizam fiecare client si industrie pentru a dezvolta strategii digitale adaptate nevoilor specifice. Suntem aici pentru a va ghida in labirintul marketingului digital si a va oferi un parteneriat dedicat pentru a va ajuta sa va construiti brandul, sa cresteti traficul, sa obtineti leads de calitate si sa cresteti conversiile
                   <br>O alta caracteristica distinctiva este angajamentul nostru fata de rezultate. Nu ne oprim la simpla planificare si executie. Urmarim fiecare campanie si utilizam date si analize pentru a ne asigura ca obiectivele dumneavoastra sunt atinse. Suntem focusati spre succesul dvs. online  si masuram fiecare actiune de care este nevoie pentru a-l atinge</p>
-
-
-                </div>
               </div>
-
           </li>
           <li class="l-section section">
             <div class="contact">
@@ -254,7 +248,7 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Social Media Marketing
+                      Social Media<br>Marketing
                     </label>
                     <input id="opt-6" type="checkbox" value="marketing">
                     <label for="opt-6">
