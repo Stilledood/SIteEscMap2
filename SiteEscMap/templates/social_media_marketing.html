@@ -25,11 +25,12 @@
         </header>
         <nav class="l-side-nav">
           <ul class="side-nav">
-            <li class="is-active"><span>Social Media Marketing</span></li>
+            <li class="active"><span>Social Media Marketing</span></li>
             <li><span>Descriere</span></li>
             <li><span>Pasi</span></li>
+            <li><span>Tipuri de Reclame</span></li>
+            <li><span>Contact</span></li>
 
-            <li><span>Contact2</span></li>
           </ul>
         </nav>
         <ul class="l-main-content main-content">
@@ -220,4 +221,11 @@
     </div>
   </div>
 </div>
+ <ul class="outer-nav">
+   <li class="is-active" id="home"><a href="{% url 'home' %}">Acasa</a></li>
+    <li id="servicii">Descriere</li>
+    <li id="despre">Pasi</li>
+    <li id="contact">Tipuri de Reclame</li>
+    <li id="parteneriat">Contact</li>
+  </ul>
 {% endblock content %}
