@@ -25,5 +25,6 @@ urlpatterns = [
     path('services/google_ads', TemplateView.as_view(template_name='google_ads.html')),
     path('services/branding', TemplateView.as_view(template_name='branding.html')),
     path('services/email_marketing', TemplateView.as_view(template_name='email.html')),
+    path('services/web_development', TemplateView.as_view(template_name='web_development.html')),
 
 ]
